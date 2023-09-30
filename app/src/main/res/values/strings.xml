@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Date Utility</string>
+    <string name="hyperlink">source code available at\n <a href="https://github.com/NatnaelAbreham"> https://github.com/NatnaelAbreham</a></string>
+    <string name="email">contact me at\n <a href="mailto:natiabreham728@gmail.com">natiabreham728@gmail.com</a></string>
+    <string-array name="months">
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+    </string-array>
+</resources>
+
+

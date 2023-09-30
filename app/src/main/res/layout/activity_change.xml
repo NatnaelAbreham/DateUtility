@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbarSize="25sp"
+    tools:context=".ChangeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gregorian Calendar"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/day"
+            android:hint="day"
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="20dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/months"
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/year"
+            android:hint="year"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="20dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/monthnumber"
+            android:text="Month Number"
+            android:textSize="15dp"
+            android:textColor="#FAFBFB"
+            android:backgroundTint="#012020"
+            android:layout_marginBottom="5dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/getname"
+            android:text="Change"
+            android:textSize="15dp"
+            android:textColor="#FAFBFB"
+            android:backgroundTint="#012020"
+            android:layout_marginBottom="30dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

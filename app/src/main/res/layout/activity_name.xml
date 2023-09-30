@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="25sp"
+
+    tools:context=".NameActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use Ethiopian calendar"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/day"
+            android:hint="day"
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/month"
+            android:hint="month"
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/year"
+            android:hint="year"
+            android:textSize="15dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="20dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/getname"
+            android:text="Get Name"
+            android:textSize="15dp"
+            android:textColor="#FAFBFB"
+            android:backgroundTint="#012020"
+            android:layout_marginBottom="30dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
